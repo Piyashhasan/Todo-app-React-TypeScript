@@ -6,7 +6,7 @@ import Todos from "./components/Todos/Todos";
 function App() {
   return (
     <div className="container app">
-      <h1 className="text-center mt-5">TODO NEXT + TYPESCRIPT</h1>
+      <h1 className="text-center mt-5 title">TODO NEXT + TYPESCRIPT</h1>
       <section>
         <AddToDo />
         <NavBar />

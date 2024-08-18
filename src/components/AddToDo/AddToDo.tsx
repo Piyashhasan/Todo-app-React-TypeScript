@@ -15,10 +15,10 @@ const AddToDo = () => {
 
   // ==================== HTML ====================
   return (
-    <div className="">
+    <div>
       <form
         onSubmit={handleFormSubmit}
-        className="mt-5 d-flex justify-content-center"
+        className="mt-5 d-flex justify-content-center todo-add-form"
       >
         <input
           className="form-control w-25 p-2 rounded-0 px-3"
@@ -26,6 +26,7 @@ const AddToDo = () => {
           placeholder="Type your todos"
           value={todos}
           onChange={(e) => setTodos(e.target.value)}
+          required
         />
         <button type="submit" className="btn btn-success mx-3 rounded-0 px-4">
           ADD

@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-.app h1{
-  color: #EE5876;
+.app h1 {
+  color: #ee5876;
+}
+
+@media only screen and (max-width: 767px) {
+  .todo-add-form input {
+    width: 50% !important;
+  }
+  .nav_bar {
+    justify-content: space-between;
+  }
+  .todoList {
+    width: 100% !important;
+  }
+  .title {
+    font-size: 24px;
+  }
 }

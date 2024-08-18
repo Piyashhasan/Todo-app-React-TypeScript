@@ -25,9 +25,9 @@ const Todos = () => {
         return (
           <div
             key={index}
-            className="todoList w-50 my-3 mx-auto p-3 d-flex align-items-center justify-content-between"
+            className="todoList my-3 mx-auto p-3 d-flex align-items-center justify-content-between"
           >
-            <div className="d-flex ">
+            <div className="d-flex">
               <input
                 type="checkbox"
                 id=""

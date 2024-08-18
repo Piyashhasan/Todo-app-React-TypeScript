@@ -3,7 +3,7 @@ import "./nav.css";
 
 const NavBar = () => {
   return (
-    <nav className="container navbar w-50 mt-4 px-3">
+    <nav className="container mt-4 px-3 nav_bar">
       <NavLink
         to="/"
         style={({ isActive }) => {
